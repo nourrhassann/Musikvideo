@@ -1,0 +1,68 @@
+/*START OF CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+/*BACKGROUND IMAGE*/
+body{
+    background-image: url('Images/sly&theman.png');
+    color: #C93529;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*MAIN TEXT WITH TITLES*/
+h1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+  font-family: 'Bebas Neue', cursive;
+}
+h4{
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+h2{
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+h6{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Bebas Neue', cursive;
+}
+  /*LISTEN NOW BUTTON*/
+  .block {
+    display: block;
+    width: 10;
+    border: none;
+    background-color: #C93529;
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+  }  
+  .block:hover {
+    background-color: #36454F;
+    color: white;
+  }
+  /*PLATFORM ICONS*/
+  .icons{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+footer img{
+    width: 30px;
+    height: auto;
+    padding: -10px;
+    align-items: center ;
+}
+/*VIDEO*/
+video {
+  display: block;
+  margin: auto;
+  margin-left: 50vw;
+  transform: translate(-50%);
+}
